@@ -10,11 +10,11 @@ os:
             relative_tool_chain_path: "openlogic-openjdk-8u412-b08-linux-x64/"
             sha256_sum: "eb06c9d62e031e3290f499a828cae66d4fadbf62eb8f490c63c8406b1a80172e"
           maven_version:
-            name: "3.9.4"
+            name: "3.9.9"
             urls:
-              - "https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.4/apache-maven-3.9.4-bin.tar.gz"
-            relative_tool_chain_path: "apache-maven-3.9.4"
-            sha256_sum: "ff66b70c830a38d331d44f6c25a37b582471def9a161c93902bac7bea3098319"
+              - "https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.tar.gz"
+            relative_tool_chain_path: "apache-maven-3.9.9"
+            sha256_sum: "7a9cdf674fc1703d6382f5f330b3d110ea1b512b51f1652846d9e4e8a588d766"
   darwin:
     arch:
       arm64:
@@ -29,5 +29,5 @@ os:
             name: "3.9.9"
             urls:
               - "https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.tar.gz"
-            relative_tool_chain_path: "apache-maven-3.9.4"
+            relative_tool_chain_path: "apache-maven-3.9.9"
             sha256_sum: "7a9cdf674fc1703d6382f5f330b3d110ea1b512b51f1652846d9e4e8a588d766"
