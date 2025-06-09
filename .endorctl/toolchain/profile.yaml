@@ -10,10 +10,10 @@ os:
             relative_tool_chain_path: "openlogic-openjdk-8u412-b08-linux-x64/"
             sha256_sum: "eb06c9d62e031e3290f499a828cae66d4fadbf62eb8f490c63c8406b1a80172e"
           maven_version:
-            name: "3.9.9"
+            name: "3.9.4"
             urls:
-              - "https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.tar.gz"
-            relative_tool_chain_path: "apache-maven-3.9.9"
+              - "https://archive.apache.org/dist/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz"
+            relative_tool_chain_path: "apache-maven-3.9.4"
             sha256_sum: "7a9cdf674fc1703d6382f5f330b3d110ea1b512b51f1652846d9e4e8a588d766"
   darwin:
     arch:
@@ -26,8 +26,8 @@ os:
             relative_tool_chain_path: "openlogic-openjdk-8u412-b08-mac-x64/jdk1.8.0_412.jdk/Contents/Home"
             sha256_sum: "a16d297418f6800dfc5abfd4dfd8a16c0504d7e1f3b6fc9051cf2460f14a955e"
           maven_version:
-            name: "3.9.9"
+            name: "3.9.4"
             urls:
-              - "https://repo1.maven.org/maven2/org/apache/maven/apache-maven/3.9.9/apache-maven-3.9.9-bin.tar.gz"
-            relative_tool_chain_path: "apache-maven-3.9.9"
+              - "https://archive.apache.org/dist/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz"
+            relative_tool_chain_path: "apache-maven-3.9.4"
             sha256_sum: "7a9cdf674fc1703d6382f5f330b3d110ea1b512b51f1652846d9e4e8a588d766"
