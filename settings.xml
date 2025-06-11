@@ -1,0 +1,62 @@
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <proxies></proxies>
+  <servers>
+    <server>
+      <username>kamakshya</username>
+      <password></password>
+      <privateKey></privateKey>
+      <passphrase></passphrase>
+      <filePermissions></filePermissions>
+      <directoryPermissions></directoryPermissions>
+      <id>66f1655541ce476fbdcd5402</id>
+    </server>
+    <server>
+      <username>djd</username>
+      <password></password>
+      <privateKey></privateKey>
+      <passphrase></passphrase>
+      <filePermissions></filePermissions>
+      <directoryPermissions></directoryPermissions>
+      <id>66f24f6e374c726bd9f5d105</id>
+    </server>
+  </servers>
+  <mirrors></mirrors>
+  <profiles>
+    <profile>
+      <activation></activation>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>Central Repository</name>
+          <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>66f1655541ce476fbdcd5402</id>
+          <name>mvn PackageManager</name>
+          <url>https://nexus.dev.endorlabs.com/repository/endor-maven/</url>
+        </repository>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>66f24f6e374c726bd9f5d105</id>
+          <name>mvn PackageManager</name>
+          <url>djjdjd</url>
+        </repository>
+      </repositories>
+      <pluginRepositories></pluginRepositories>
+      <id>central</id>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>central</activeProfile>
+  </activeProfiles>
+  <pluginGroups></pluginGroups>
+</settings>

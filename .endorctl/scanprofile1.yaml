@@ -1,0 +1,35 @@
+kind: ToolchainProfile
+spec:
+  os:
+    linux:
+      arch:
+        amd64:
+          java_tool_chain:
+            version:
+              name: "1.8.412"
+              urls:
+                - "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u412-b08/openlogic-openjdk-8u412-b08-linux-x64.tar.gz"
+              relative_tool_chain_path: "openlogic-openjdk-8u412-b08-linux-x64/"
+              sha256_sum: "eb06c9d62e031e3290f499a828cae66d4fadbf62eb8f490c63c8406b1a80172e"
+            maven_version:
+              name: "3.9.4"
+              urls:
+                - https://archive.apache.org/dist/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
+              relative_tool_chain_path: "apache-maven-3.9.4"
+              sha256_sum: "ff66b70c830a38d331d44f6c25a37b582471def9a161c93902bac7bea3098319"
+    darwin:
+      arch:
+        arm64:
+          java_tool_chain:
+            version:
+              name: "1.8.412"
+              urls:
+                - "https://builds.openlogic.com/downloadJDK/openlogic-openjdk/8u412-b08/openlogic-openjdk-8u412-b08-mac-x64.zip"
+              relative_tool_chain_path: "openlogic-openjdk-8u412-b08-mac-x64/jdk1.8.0_412.jdk/Contents/Home"
+              sha256_sum: "a16d297418f6800dfc5abfd4dfd8a16c0504d7e1f3b6fc9051cf2460f14a955e"
+            maven_version:
+              name: "3.9.4"
+              urls:
+                - https://archive.apache.org/dist/maven/maven-3/3.9.4/binaries/apache-maven-3.9.4-bin.tar.gz
+              relative_tool_chain_path: "apache-maven-3.9.4"
+              sha256_sum: "ff66b70c830a38d331d44f6c25a37b582471def9a161c93902bac7bea3098319"
